@@ -1,6 +1,7 @@
 import React from "react"
 
 import Image from "../components/image"
+import pngImg from "../img/logo-sm.png"
 
 export default () => (
   <>
@@ -12,7 +13,8 @@ export default () => (
       }}
     >
       <Image name="logo-sm.png" />
-      <img src="../img/logo-sm.png" />
+      <h3>What it should look like:</h3>
+      <img src={pngImg} />
     </div>
   </>
 )
