@@ -12,6 +12,7 @@ export default () => (
       }}
     >
       <Image name="logo-sm.png" />
+      <img src="../img/logo-sm.png" />
     </div>
   </>
 )
